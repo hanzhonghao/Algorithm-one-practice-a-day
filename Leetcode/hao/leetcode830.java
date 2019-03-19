@@ -8,7 +8,6 @@ import java.util.List;
 public class leetcode830 {
   public List<List<Integer>> largeGroupPositions(String S) {
     char[] str = S.toCharArray();
-    ArrayList<Integer> integers = new ArrayList<>();
     ArrayList<List<Integer>> result = new ArrayList<>();
     for (int i = 0; i < str.length - 2; i++) {
       int start = i;
@@ -20,9 +19,7 @@ public class leetcode830 {
           }
           i++;
         }
-        integers.add(start);
-        integers.add(i);
-        result.add(integers);
+        result.add(Arrays.asList(new Integer[]{start,i}));
       }
     }
     return result;
