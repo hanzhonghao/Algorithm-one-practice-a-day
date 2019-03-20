@@ -20,6 +20,14 @@ Output: 6
 Explanation:  After 6 moves, the array could be [3, 4, 1, 2, 5, 7].
 It can be shown with 5 or less moves that it is impossible for the array to have all unique values.
  */
+/*
+LeetCode : Time Out:
+Submission Detail
+56 / 59 test cases passed.
+Status: Time Limit Exceeded
+Submitted: 11 minutes ago
+
+ */
 public class M_945_1_Minimum_Increment_to_Make_Array_Unique {
     public  int minIncrementForUnique(int[] A) {
         A=ShellSort(A);
