@@ -37,7 +37,7 @@ Memory Usage: 38.5 MB, less than 93.07% of Java online submissions for Pos
 
 
  */
-public class e_830_1_Positions_of_Large_Groups {
+public class E_830_1_Positions_of_Large_Groups {
     public static List<List<Integer>> largeGroupPositions(String S) {
         List<List<Integer>> listList = new ArrayList<>();
         int begin = 0;
